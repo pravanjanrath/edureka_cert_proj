@@ -1,6 +1,6 @@
 ---
 - name: Install Docker
-  hosts: Jenkins-Slave
+  hosts: webservers
   become: true  # Run tasks with sudo privileges
 
   tasks:
