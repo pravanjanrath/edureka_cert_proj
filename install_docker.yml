@@ -1,6 +1,6 @@
 ---
 - name: Install Docker
-  hosts: webservers
+  hosts: slave
   become: true  # Run tasks with sudo privileges
 
   tasks:
