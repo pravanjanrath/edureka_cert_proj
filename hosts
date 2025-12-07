@@ -1,0 +1,2 @@
+[slave]
+test-server ansible_host=172.31.5.93 ansible_user=ubuntu
